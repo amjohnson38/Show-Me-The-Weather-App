@@ -1,0 +1,92 @@
+body{ 
+    background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}   
+.title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: thick;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+.container{   
+-webkit-box-shadow: -9px 21px 13px 0px  #000644;
+-moz-box-shadow: -9px 21px 13px 0px #000644;
+ box-shadow: -9px 21px 13px 0px #000644;
+background-color: black;
+	
+
+    border-radius:3px;
+   border-style: solid;
+   border-width: thin;
+   border-color: lightgray;
+}
+
+ 
+
+
+#celsiusTemp{
+    display: none;
+}
+
+.city{
+      background-color:#000644;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      
+      
+   
+  
+      }
+
+.weather{
+    background-color: papayawhip;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    
+    
+}
+
+.dayTime{
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+   
+    
+    
+}
+
+.humidity{
+    background-color:#316FE0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+.windspeed{
+    background-color:#8CCCF0;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.temperature{
+    background-color:#A9B0B3;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: 120px;
+    color:white;
+}
+#button{
+    background-color:#000644;
+    
+}

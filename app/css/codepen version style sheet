@@ -1,0 +1,47 @@
+body {
+	background: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.titleContainer {
+	margin-top: 50px;
+	margin-bottom: 150px;
+	
+}
+
+.appTitle {
+	text-align: center;
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: thick;
+	color: white;
+	2px 2px 1px #20293F,
+	-2px -2px 1px #20293F,
+	-2px 2px 1px #20293F,
+	2px -2px 1px #20293F;
+}
+
+.container {
+	-webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;
+	font-weight: 700;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0 0 15px #20293F;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+#celsiusTemp {
+	display: none;
+}
+
+#button {
+	background-color: #20293F;
+}
